@@ -14,10 +14,17 @@ git staus
 
 git commit -m '.gitignore és a README.md fájlok létrehozva, .gitignore-ba felvételre kerültek a megadott fájlformátumok'
 
-
+git add .
+git commit -m 'style.css-ben a szükséges változtatást elvégeztem'
 
 git branch console ->console ág létrehozása
 git checkout console -> console ágra váltás
 
-git remote add origin https://github.com/zulumester/git-vizsga-0205.git
-git push -u origin master
+git add .
+git commit -m 'app.js-ben a szükséges változtatást elvégeztem'
+
+git rm origin
+
+git remote add origin https://github.com/zulumester/git-vizsga.git
+git push -u origin main
+git push -u origin console
