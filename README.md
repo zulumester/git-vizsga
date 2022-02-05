@@ -4,17 +4,17 @@ git clone https://github.com/szpeter992/git-vizsga-0205.git
 
 cd git-vizsga-0205 -> klónozott mappa megnyitása
 
-console . -> alapértelmezett editor megnyitása, esetünkben Visual Studio Code
+coode . -> alapértelmezett editor megnyitása, esetünkben Visual Studio Code
 
-touch README.md -> README.md fájl létrehozása
-git add . -> fájl hozzáadása a repositoryhoz
-git commit -m 'README.md fájlt létrehozva' 
+touch README.md 
 
-touch .gitignore -> .gitignore fájl létrehozása
-git add . -> fájl hozzáadása a repositoryhoz
-git commit -m '.gitignore fájlt létrehozva' 
+touch .gitignore 
+ 
+git staus
 
-git staus -> fájlok státuszénak ellenőrzése
+git commit -m '.gitignore és a README.md fájlok létrehozva, .gitignore-ba felvételre kerültek a megadott fájlformátumok'
+
+
 
 git branch console ->console ág létrehozása
 git checkout console -> console ágra váltás
